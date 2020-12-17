@@ -1,10 +1,9 @@
-#!/bin/bash
-snakeLadder
+#!/bin/bash -x
 
 function snakeLadder(){
    echo "Welcome to Snake And ladder game"
    position=0;
-   echo "Player added at " $position1 "position"
+   echo "Player added at  $position1 position"
    rollDice
 }
 
@@ -13,3 +12,4 @@ function rollDice(){
    echo $dice
 }
 
+snakeLadder

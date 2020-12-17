@@ -3,7 +3,7 @@
 position=0;
 player1=1;
 function snakeLadder(){
-   echo "Welcome to Snake And ladder game"
+   echo "!!!!!Welcome to Snake And ladder game!!!!"
    echo "Player added at  $position position"
    rollDice
 }
@@ -17,7 +17,7 @@ function rollDice(){
 }
 
 function option(){
-	optionDice=$((RANDOM%3+1))
+	optionDice=$((RANDOM%3))
 
 	case $optionDice in
 	1) position = 0
@@ -38,6 +38,6 @@ function option(){
 esac
 }
 
-echo "Snake And Ladder Game has started"
+echo "!!!!Snake And Ladder Game has started!!!!!!"
 snakeLadder
 
